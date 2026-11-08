@@ -1,0 +1,12 @@
+.git/
+.research/
+.next/
+.vercel/
+node_modules/
+artifacts/
+cache/
+lib/generated/
+*.tsbuildinfo
+.env*
+!.env.example
+deployment.json

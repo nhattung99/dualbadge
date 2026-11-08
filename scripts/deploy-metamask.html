@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deploy DualBadge qua MetaMask</title>
+  <style>
+    body { margin: 0; padding: 2rem 1rem; background: #f3f4ff; color: #1c2145; font: 16px/1.6 system-ui, sans-serif; }
+    main { max-width: 42rem; margin: auto; padding: 1.5rem; background: white; border: 1px solid #d7ddf3; border-radius: 16px; }
+    h1 { line-height: 1.15; }
+    dt { font-weight: 700; } dd { margin: 0 0 .7rem; overflow-wrap: anywhere; }
+    button { border: 0; border-radius: 8px; padding: .75rem 1rem; color: white; background: #5033bb; font: inherit; font-weight: 700; cursor: pointer; }
+    button:disabled { opacity: .5; cursor: default; }
+    #status { white-space: pre-wrap; overflow-wrap: anywhere; } a { color: #5033bb; }
+  </style>
+  <script defer src="/deploy-metamask.js"></script>
+</head>
+<body>
+  <main>
+    <h1>Deploy DualBadge qua MetaMask</h1>
+    <p>Chọn đúng tài khoản trong MetaMask. Nút bên dưới mở yêu cầu deploy để bạn xem lại và xác nhận trong ví.</p>
+    <dl id="plan"></dl>
+    <button id="deploy" disabled>Duyệt deploy và mở MetaMask</button>
+    <p id="status" role="status">Đang tải kế hoạch…</p>
+    <a id="explorer" hidden target="_blank" rel="noreferrer">Xem giao dịch trên Rome Via ↗</a>
+  </main>
+</body>
+</html>
