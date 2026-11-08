@@ -9,7 +9,9 @@
 
 Arena requires sign-in and a Builder account for registration. Its public registration form defines an app name of up to 60 characters, a one-line description of up to 120 characters, a description of up to 1,000 characters, an app kind, and fields for Website, GitHub and X. Use the project name and tagline above and the following description.
 
-> DualBadge brings open-claim achievements to one Solidity registry on Rome Hadrian. Badge owners publish capped, non-transferable badge types. Users explore the catalog, see which badges they hold, and browse the on-chain activity. MetaMask uses the EVM lane. The Phantom integration uses Rome's legacy Solana transaction lane and awaits live verification.
+> DualBadge is an achievement app on Rome Hadrian. Its Solidity registry issues capped, non-transferable badges. A dashboard tracks rank milestones from verified Hadrian transaction hashes, supported Rome DEX swaps and outbound bridge transactions. MetaMask minting has been verified on Hadrian. Phantom integration is available for testing and awaits a successful live mint.
+
+Select **Both** for app kind. Use the Website and GitHub links in the evidence table and [the project creator’s X profile](https://x.com/nhattung00) for the X field.
 
 After registration, the contract-linking flow asks for the Hadrian deployment transaction hash and a message signed by its deployer. The signing step needs separate approval. [Arena app registration](https://arena.mainnet.romeprotocol.xyz/apps/new)
 
@@ -30,8 +32,8 @@ MetaMask uses the EVM write path. The Phantom integration uses the legacy Solana
 | Item | Status |
 | --- | --- |
 | Hadrian deployment address and Via link | `0x1f78d726497e64eb86f0b3355be02cfbcaf3d329` · [Rome Via deployment](https://via-hadrian.testnet.romeprotocol.xyz/tx/0x83e70997b1474f178cb538342f1d530f116e4b95bcce98f10cb5a04fc366322f) |
-| GitHub repository URL | TODO |
-| Live demo URL | TODO |
+| GitHub repository URL | [nhattung99/dualbadge](https://github.com/nhattung99/dualbadge) |
+| Live demo URL | [DualBadge on Vercel](https://dualbadge.vercel.app) |
 | Screenshots | TODO · Catalog, detail, both wallet dashboards, activity |
 | MetaMask mint transaction and Solana settlement | Creator Circle, badge #2 · [Rome Via](https://via-hadrian.testnet.romeprotocol.xyz/tx/0x9a1a0a8256b16416292cc5d9e1e23f92d319883e651dc0ef3d9a1a9eb7b0b380) · [Solana devnet settlement](https://explorer.solana.com/tx/58Auk9fYuXe8CCPtmR4oNbsaKmtGC1GekrYY3hpFY1JUajY4z9xWGPZiQzKMYwmnXCCs27aJWJ6pV5Sm1gt9LiEv?cluster=devnet) |
 | Phantom signature, EVM receipt and canonical account | TODO |

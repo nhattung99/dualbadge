@@ -2,6 +2,8 @@
 
 **One Badge System, Two Wallet Worlds**
 
+[Open the live demo](https://dualbadge.vercel.app)
+
 DualBadge is an open-claim achievement registry for Rome Hadrian. The Next.js frontend has a public catalog, wallet dashboard, badge details, activity, and owner administration. A single Solidity contract records supply and ownership for both wallet paths.
 
 **Status** · Deployed on Rome Hadrian at `0x1f78d726497e64eb86f0b3355be02cfbcaf3d329`. The EVM lane recorded a live Creator Circle mint. A Phantom mint remains pending. The Phantom adapter uses Rome’s legacy Solana transaction path because the current scaffold documents a Phantom limitation with Solana v1 on devnet. [Rome Via deployment](https://via-hadrian.testnet.romeprotocol.xyz/tx/0x83e70997b1474f178cb538342f1d530f116e4b95bcce98f10cb5a04fc366322f) · [Creator Circle mint](https://via-hadrian.testnet.romeprotocol.xyz/tx/0x9a1a0a8256b16416292cc5d9e1e23f92d319883e651dc0ef3d9a1a9eb7b0b380)
